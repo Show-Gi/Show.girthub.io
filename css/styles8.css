@@ -1,0 +1,61 @@
+/* common */
+/* small screen */
+body {
+  margin: 0;
+}
+
+aside {
+    display: none;
+}
+.image {
+  background: cornflowerblue;
+  height: 100px;
+}
+
+.text {
+  background: darkgray;
+  height: 100px;
+
+}
+/* medum screen */
+@media  (min-width: 600px) {
+    section {
+      display: flex;
+    }
+}
+  .image {
+    width: 200px;
+  }
+  .text {
+    flex: 1;
+  }
+@media  (min-width: 800px)   {
+  section {
+    width:800px;
+    margin: 0 auto;
+  }
+
+    aside {
+      display:block;
+      background: lightsteelblue;
+      width: 200px;
+      ;
+    }
+}
+
+/* large screen */
+
+/* @media  (min-width: 0px)  and  (max-width: 599px) {
+}
+@media  (min-width: 600px)  and  (max-width: 799px) {
+}
+@media  (min-width: 800px)   {
+} */
+
+
+
+/* @media  (min-width: 600px)  and  (max-width: 800px) {
+  body{
+      background: cadetblue;
+  }
+} */
